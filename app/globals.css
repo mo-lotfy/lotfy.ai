@@ -306,6 +306,7 @@ a:hover {
   color: var(--text-mut);
   font-size: 12px;
   letter-spacing: 0.04em;
+  white-space: nowrap;
 }
 .work-list .where {
   color: var(--text);

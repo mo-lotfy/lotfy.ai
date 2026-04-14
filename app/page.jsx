@@ -36,52 +36,7 @@ export default function Page() {
           Development.
         </p>
       </header>
-      <section className="contact">
-        <div className="section-label">contact</div>
-        <pre className="contact-block" aria-label="contact information">
-          <code>
-            <span className="c-kw">const</span> <span className="c-var">contact</span> <span className="c-op">=</span> <span className="c-brace">{"{"}</span>
-            {"\n  "}
-            <span className="c-key">email</span>
-            <span className="c-op">:</span>
-            {"    "}
-            <a className="c-str" href="mailto:hi@lotfy.ai">
-              "hi@lotfy.ai"
-            </a>
-            <span className="c-op">,</span>
-            {"\n  "}
-            <span className="c-key">phone</span>
-            <span className="c-op">:</span>
-            {"    "}
-            <a className="c-str" href="tel:+201080606040">
-              "010 80 6060 40"
-            </a>
-            <span className="c-op">,</span>
-            {"\n  "}
-            <span className="c-key">linkedin</span>
-            <span className="c-op">:</span>{" "}
-            <a className="c-str" href="https://linkedin.com/in/mo-lotfy" target="_blank" rel="noopener noreferrer">
-              "linkedin.com/in/mo-lotfy"
-            </a>
-            <span className="c-op">,</span>
-            {"\n  "}
-            <span className="c-key">location</span>
-            <span className="c-op">:</span> <span className="c-str">"Alexandria, Egypt"</span>
-            <span className="c-op">,</span>
-            {"\n  "}
-            <span className="c-key">resume</span>
-            <span className="c-op">:</span>
-            {"   "}
-            <a className="c-str" href="/resume.pdf" target="_blank" rel="noopener noreferrer" download>
-              "Resume.pdf"
-            </a>
-            <span className="c-op">,</span>
-            {"\n"}
-            <span className="c-brace">{"}"}</span>
-            <span className="c-op">;</span>
-          </code>
-        </pre>
-      </section>
+
       <section className="about">
         <div className="section-label">about</div>
         <Image className="avatar-float" src="/lotfy.jpg" alt="Mohamed Lotfy" width={120} height={120} priority />
@@ -122,7 +77,51 @@ export default function Page() {
           </div>
         </div>
       </section>
-
+      <section className="contact">
+        <div className="section-label">contact</div>
+        <pre className="contact-block" aria-label="contact information">
+          <code>
+            <span className="c-kw">const</span> <span className="c-var">contact</span> <span className="c-op">=</span> <span className="c-brace">{"{"}</span>
+            {"\n  "}
+            <span className="c-key">email</span>
+            <span className="c-op">:</span>
+            {"    "}
+            <a className="c-str" href="mailto:hi@lotfy.ai">
+              "hi@lotfy.ai"
+            </a>
+            <span className="c-op">,</span>
+            {"\n  "}
+            <span className="c-key">phone</span>
+            <span className="c-op">:</span>
+            {"    "}
+            <a className="c-str" href="tel:+201080606040">
+              "010 80 6060 40"
+            </a>
+            <span className="c-op">,</span>
+            {"\n  "}
+            <span className="c-key">linkedin</span>
+            <span className="c-op">:</span>{" "}
+            <a className="c-str" href="https://linkedin.com/in/mo-lotfy" target="_blank" rel="noopener noreferrer">
+              "linkedin.com/in/mo-lotfy"
+            </a>
+            <span className="c-op">,</span>
+            {"\n  "}
+            <span className="c-key">resume</span>
+            <span className="c-op">:</span>
+            {"   "}
+            <a className="c-str" href="/resume.pdf" target="_blank" rel="noopener noreferrer" download>
+              "Lotfy Resume.pdf"
+            </a>
+            <span className="c-op">,</span>
+            {"\n  "}
+            <span className="c-key">location</span>
+            <span className="c-op">:</span> <span className="c-str">"Alexandria, Egypt"</span>
+            {"\n"}
+            <span className="c-brace">{"}"}</span>
+            <span className="c-op">;</span>
+          </code>
+        </pre>
+      </section>
       <section className="work">
         <div className="section-label">work</div>
         <ul className="work-list">
