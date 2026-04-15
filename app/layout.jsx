@@ -2,9 +2,9 @@ import './globals.css'
 
 export const metadata = {
   metadataBase: new URL('https://lotfy.ai'),
-  title: 'Mohamed Lotfy — Team Leader · AI-Augmented Developer',
+  title: 'Mohamed Lotfy — Tech Lead · AI-Augmented Developer',
   description:
-    'Mohamed Lotfy — team leader and AI-augmented developer with 13+ years shipping scalable web platforms with React, Next.js, and TypeScript. Spec-Driven Development and agentic coding practitioner.',
+    'Tech Lead & AI-augmented developer. 13+ years shipping scalable web platforms with React, Next.js, and TypeScript. Spec-Driven Development practitioner.',
   keywords: [
     'Mohamed Lotfy',
     'AI engineer',
@@ -35,9 +35,9 @@ export const metadata = {
   openGraph: {
     type: 'profile',
     url: 'https://lotfy.ai/',
-    title: 'Mohamed Lotfy — Team Leader · AI-Augmented Developer',
+    title: 'Mohamed Lotfy — Tech Lead · AI-Augmented Developer',
     description:
-      '13+ years shipping scalable web platforms. Practitioner of Spec-Driven Development and agentic coding with Claude Code.',
+      '13+ years shipping scalable web platforms. Spec-Driven Development and agentic coding with Claude Code.',
     siteName: 'lotfy.ai',
     locale: 'en_US',
     images: [
@@ -53,7 +53,7 @@ export const metadata = {
     card: 'summary_large_image',
     site: '@molotfii',
     creator: '@molotfii',
-    title: 'Mohamed Lotfy — Team Leader · AI-Augmented Developer',
+    title: 'Mohamed Lotfy — Tech Lead · AI-Augmented Developer',
     description:
       '13+ years shipping scalable web platforms. Spec-Driven Development and agentic coding with Claude Code.',
     images: ['https://lotfy.ai/lotfy.jpg'],
@@ -92,9 +92,9 @@ const ldJson = {
   url: 'https://lotfy.ai/',
   image: 'https://lotfy.ai/lotfy.jpg',
   email: 'mailto:hi@lotfy.ai',
-  jobTitle: 'Team Leader · AI-Augmented Developer',
+  jobTitle: 'Tech Lead · AI-Augmented Developer',
   description:
-    'Team leader and AI-augmented developer with 13+ years shipping scalable web platforms. Practitioner of Spec-Driven Development and agentic coding with Claude Code.',
+    'Tech Lead and AI-augmented developer with 13+ years shipping scalable web platforms. Spec-Driven Development and agentic coding with Claude Code.',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Alexandria',
